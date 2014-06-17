@@ -31,12 +31,8 @@
             android:label="@string/title_activity_data_entry" >
         </activity>
         <activity
-            android:name="com.cse4471.travelguardian.Count_Time_Left"
-            android:label="@string/title_activity_count__time__left"
-            android:parentActivityName="com.cse4471.travelguardian.StartActivity$PlaceholderFragment" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.cse4471.travelguardian.StartActivity$PlaceholderFragment" />
+            android:name="com.cse4471.travelguardian.CountTimeLeft"
+            android:label="@string/title_activity_count__time__left">
         </activity>
         <activity
             android:name="com.cse4471.travelguardian.CheckedOut"

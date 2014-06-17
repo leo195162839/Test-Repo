@@ -9,12 +9,12 @@
     tools:context="com.cse4471.travelguardian.Broadcast$PlaceholderFragment" >
 
         <TextView
-        android:id="@+id/SentNotification"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:padding="30sp"
-        android:text="@string/Sent_Notification" />
+            android:id="@+id/SentNotification"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="30sp"
+            android:text="@string/Sent_Notification" />
 
         <TextView
             android:id="@+id/BroadcastMessage"

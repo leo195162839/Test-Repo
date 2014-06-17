@@ -26,6 +26,7 @@
     <string name="time_remianing">Time remianing:</string>
     <string name="count_time_left2">to check-out</string>
     <string name="button_checkout">Check-out</string>
+    <string name="button_panic">Panic!</string>
     <string name="title_activity_count__time__left">Count_Time_Left</string>
     <string name="title_activity_checked_out">CheckedOut</string>
     <string name="title_activity_broadcast">Broadcast</string>
@@ -37,5 +38,6 @@
                                      \n@ 7:45pm UTC 05/12/2014
                                      \nHost Contact: Hotel, (123) 281-2729</string>
     <string name="Congrats"><b>Congratulations!\nChecked Out Succefully!</b></string>
+    
 
 </resources>

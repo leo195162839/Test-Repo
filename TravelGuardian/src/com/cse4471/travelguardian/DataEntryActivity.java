@@ -40,6 +40,7 @@ public class DataEntryActivity extends ActionBarActivity implements OnSeekBarCha
 
 	// Variables to display/set the date and time
 	private int mYear, mMonth, mDay, mHour, mMinute; 
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -133,12 +134,21 @@ public class DataEntryActivity extends ActionBarActivity implements OnSeekBarCha
 	}
 	
 	
-	/** Called when the user clicks the Start Trip button */
+	/* Called when the user clicks the Start Trip button */
 	public void startTrip(View view) {
 		Intent intent = new Intent(this, CountTimeLeft.class);
 		startActivity(intent);
 	}
 	
+	/**
+	// saved time data to the count down timer 
+	@Override
+	public void onSaveInstanceState(Bundle savedInstanceState) {
+	    // Save myVar's value in saveInstanceState bundle
+	    savedInstanceState.putLong("timeLeft", minute);
+	    super.onSaveInstanceState(savedInstanceState);
+	}
+	*/
 	
     /*
      * SeekBar Ping Frequency ---------------------------------------------------------
